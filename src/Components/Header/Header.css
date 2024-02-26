@@ -1,0 +1,53 @@
+/* .nav-link {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(255, 105, 15) !important;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 105, 15) !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+} */
+
+.navbar {
+  padding-top: 20px;
+  background-color: #ffffff; /* Set the background color of the navbar to white */
+}
+/* .nav-item {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(255, 105, 15) !important;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 105, 15) !important;
+} */
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.button {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  padding: 10px 28px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+  text-transform: uppercase;
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  cursor: pointer;
+}
+.navbar.navbar-expand-lg {
+  padding: 0 15px; /* Add some padding to the navbar to avoid sticking to the edges */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Optionally adjust the font weight of the navbar brand */
+}
+
+@media (max-width: 992px) {
+  body {
+    padding-top: 70px;
+  }
+}
